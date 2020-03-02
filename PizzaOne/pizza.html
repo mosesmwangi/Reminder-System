@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeOfTastyPizza</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/pizza.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/pizza.js"></script>
+</head>
+<body>
+    <div class="container">
+        <p>Choose Size Of Pizza: </p>
+        <select class="form-control" id="size">
+            <option value=""></option>
+            <option value="100">Small</option>
+            <option value="200">Medium</option>
+            <option value="300">Big</option>
+        </select>
+
+        <br>
+
+        <h2 id="prize"> 
+            The price is Ksh:
+        </h2>
+        
+        <p>Choose the Crust of your liking: </p>
+        <select name="" id="crust" class="form-control">
+            <option value=""></option>
+            <option value="20">Thin Crust</option>
+            <option value="30">Thick Crust</option>
+            <option value="40">Deep Crust</option>
+            <option value="50">Cheese Filled Crust</option>
+            <option value="60">Stuffed Crust</option>
+        </select>
+
+        <br>
+
+        <h2 id="prizeTwo"> 
+            The Price of Crust is Ksh:
+        </h2>
+
+        <hr>
+        
+        <h1 class="btn">
+            H2
+        </h1>
+        <br>
+
+        <form action="" >
+            <label for="">Pepperoni</label>
+            <input type="checkbox" id="one" value="100" name="topping" > <br>
+            <label for="">Onions</label>
+            <input type="checkbox" id="two" value="110" name="topping"><br>
+            <label for="">Mushroom</label>
+            <input type="checkbox" id="three" value="120" name="topping"><br>
+            <label for="">Sausage</label>
+            <input type="checkbox" id="four" value="125" name="topping"><br>
+            <label for="">Bacon</label>
+            <input type="checkbox" id="five" value="130" name="topping"><br>
+            <label for="">Extra Cheese</label>
+            <input type="checkbox" id="six" value="140" name="topping"><br>
+            <label for="">Black Olives</label>
+            <input type="checkbox" id="seven" value="150" name="topping"><br>
+            <label for="">Green Peppers</label>
+            <input type="checkbox" id="eight" value="155" name="topping"><br>
+            <button type="button">Get The Price</button>
+        </form>
+
+        <!-- onclick="getValue()" -->
+        
+        <br>
+        <br>
+
+        <form action="">
+            <input type="text" id="number">
+        </form>
+
+        <h2 id="prizeThree"> 
+            Order Now
+        </h2>
+
+        <button type="button" id="btn">GET THE GRAND TOTAL</button>
+    </div>
+    
+</body>
+</html>

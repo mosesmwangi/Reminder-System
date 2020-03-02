@@ -1,0 +1,13 @@
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+.floatRight{
+    position: absolute;
+    right: 20px;
+    float: right;
+}
